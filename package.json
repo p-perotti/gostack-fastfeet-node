@@ -1,0 +1,8 @@
+{
+  "name": "gostack-fastfeet-node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:p-perotti/gostack-fastfeet-node.git",
+  "author": "Patrick Alexis Perotti <patrickperotti0@gmail.com>",
+  "license": "MIT"
+}
