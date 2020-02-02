@@ -4,5 +4,16 @@
   "main": "index.js",
   "repository": "git@github.com:p-perotti/gostack-fastfeet-node.git",
   "author": "Patrick Alexis Perotti <patrickperotti0@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "dev:debug": "nodemon --inspect src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2",
+    "sucrase": "^3.12.1"
+  }
 }
